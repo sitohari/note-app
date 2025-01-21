@@ -10,7 +10,7 @@ class NoteApp extends React.Component {
             notes: getData(),
         }
         this.onDeleteHandler = this.onDeleteHandler.bind(this);
-        this.onAddNoteHandler = this.onAddNoteHandler(this);
+        this.onAddNoteHandler = this.onAddNoteHandler.bind(this);
     }
     
     onDeleteHandler(id){
@@ -24,10 +24,10 @@ class NoteApp extends React.Component {
                 notes:[
                     ...prevState.notes,
                     { 
-                        id: +new Date(), // Menggunakan timestamp sebagai id unik
+                        id: +new Date(), 
                         title,
                         body,
-                        createdAt: new Date().toISOString(), // Format ISO string
+                        createdAt: new Date().toISOString(), 
                     }
                 ]
             }
