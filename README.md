@@ -28,7 +28,7 @@ Aplikasi **Web Catatan** adalah sebuah aplikasi sederhana berbasis React yang me
   - Jika tidak ada catatan yang tersisa, UI akan menampilkan pesan "Tidak ada catatan" untuk memberi tahu pengguna bahwa daftar catatan kosong.
 
   🛠️ Teknologi yang Digunakan
-  React.js: Framework utama untuk membangun antarmuka aplikasi.
-  JavaScript: Untuk logika bisnis dan pengelolaan data.
-  CSS: Untuk styling antarmuka pengguna.
+  - React.js: Framework utama untuk membangun antarmuka aplikasi.
+  = JavaScript: Untuk logika bisnis dan pengelolaan data.
+  - CSS: Untuk styling antarmuka pengguna.
   
