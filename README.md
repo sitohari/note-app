@@ -23,7 +23,7 @@ Aplikasi **Web Catatan** adalah sebuah aplikasi sederhana berbasis React yang me
     createdAt: string,
   }
 
-  ### 3. **Menghapus Catatan**
+### 3. **Menghapus Catatan**
   - Terdapat tombol hapus pada setiap catatan untuk menghapus data catatan.
   - Jika tidak ada catatan yang tersisa, UI akan menampilkan pesan "Tidak ada catatan" untuk memberi tahu pengguna bahwa daftar catatan kosong.
 
